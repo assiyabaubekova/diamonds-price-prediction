@@ -26,19 +26,27 @@ The model is then filtered by a buyer's specific quality criteria (cut, color, c
 
 ## Feature Importance
 
-Carat Weight dominates price prediction with ~77% importance — consistent with how the real diamond market works. Clarity and Color each contribute ~11%. Cut, Polish, Symmetry, and Report have minimal individual predictive power.
+Carat Weight dominates price prediction with ~77% importance — consistent with how the real diamond market works. Clarity and Color each contribute 11%. Cut, Polish, Symmetry, and Report have minimal individual predictive power.
 
+<img src="images/feature_importance.png" alt="Feature importance bar chart" width="550"/>
 
 ## Exploratory Analysis
 ### Price Distribution
-
 Diamond prices follow a strong right-skewed distribution, with most stones priced between 2,000–15,000 USD and a long tail extending to 100,000 USD.
+
+<img src="images/price_distribution.png" alt="Diamond price distribution histogram" width="700"/>
+
 ### Price vs. Carat Weight — Good Deals Highlighted
 Orange dots = diamonds where the actual price is **below** the model's predicted fair value. Underpriced stones exist across all weight ranges.
+
+<img src="images/price_vs_carat.png" alt="Scatter plot of price vs carat weight with good deals highlighted" width="580"/>
+
 ## Top 5 Recommendations
 
 Filtered by quality criteria: **Cut** = Ideal or Very Good · **Color** = G or H · **Clarity** = VS1 or VS2 · **Carat** = 0.9–1.5
 All five top picks are 1.5-carat diamonds priced **595–1,013 USD below** their predicted fair value.
+
+<img src="images/top5_results.png" alt="Table of top 5 recommended diamonds" width="650"/>
 
 ## Pipeline
 
