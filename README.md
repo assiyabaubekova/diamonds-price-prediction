@@ -92,14 +92,10 @@ Top 5 Recommendations
 ## Files
 
 ```
-├── Diamond_model_fixed.ipynb   # Full ML pipeline (fixed)
+├── Diamond_fixed.ipynb   # Full ML pipeline
 ├── data.xlsx                    # Source dataset (6,000 diamonds)
-├── images/                      # Visualizations used in this README
-│   ├── feature_importance.png
-│   ├── model_code.png
-│   ├── price_distribution.png
-│   ├── price_vs_carat.png
-│   └── top5_results.png
+├── feature_importance.png       # Visualizations used in this README
+├── output.png 
 └── README.md
 ```
 
